@@ -13,9 +13,22 @@ export function Video() {
             <h1 className="text-2xl font-bold">
               Aula 01 - Abertura do Ignite Lab
             </h1>
-            <p className="mt-4 text-gray-200">
+            <p className="mt-4 text-gray-200 leading-relaxed">
               Conheça o Ignite Lab, um bônus exclusivo no qual você vai codar um projeto completo usando tecnologias modernas!
             </p>
+
+            <div className="flex items-center gap-4 my-6">
+              <img
+                className="h-16 w-16 rounded-full border-2 border-blue-500"
+                src="https://github.com/diego3g.png"
+                alt=""
+              />
+
+              <div className="leading-relaxed">
+                <strong className="font-bold text-2xl block">Diego Fernandes</strong>
+                <strong className="text-gray-200 text-sm block">CTO @Rocketseat</strong>
+              </div>
+            </div>
           </div>
 
           <div className="flex flex-col gap-4">
